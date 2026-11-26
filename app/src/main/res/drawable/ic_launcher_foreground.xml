@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Sculptural precision dumbbell rotated -32° safely inside 66dp adaptive icon safe zone -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="-32">
+
+        <!-- Center machined handle bar -->
+        <path
+            android:fillColor="#D8DDE7"
+            android:pathData="M44,50.8 L64,50.8 C65.2,50.8 66,51.6 66,52.8 L66,55.2 C66,56.4 65.2,57.2 64,57.2 L44,57.2 C42.8,57.2 42,56.4 42,55.2 L42,52.8 C42,51.6 42.8,50.8 44,50.8 Z" />
+
+        <!-- Subtle center grip highlight -->
+        <path
+            android:fillColor="#F4F6FA"
+            android:pathData="M48,51.6 L60,51.6 C60.6,51.6 61,52.0 61,52.6 C61,53.2 60.6,53.6 60,53.6 L48,53.6 C47.4,53.6 47,53.2 47,52.6 C47,52.0 47.4,51.6 48,51.6 Z" />
+
+        <!-- Left Volt locking collar -->
+        <path
+            android:fillColor="#C6F635"
+            android:pathData="M43.9,46.0 C44.7,46.0 45.4,46.7 45.4,47.5 L45.4,60.5 C45.4,61.3 44.7,62.0 43.9,62.0 C43.1,62.0 42.4,61.3 42.4,60.5 L42.4,47.5 C42.4,46.7 43.1,46.0 43.9,46.0 Z" />
+
+        <!-- Right Volt locking collar -->
+        <path
+            android:fillColor="#C6F635"
+            android:pathData="M64.1,46.0 C64.9,46.0 65.6,46.7 65.6,47.5 L65.6,60.5 C65.6,61.3 64.9,62.0 64.1,62.0 C63.3,62.0 62.6,61.3 62.6,60.5 L62.6,47.5 C62.6,46.7 63.3,46.0 64.1,46.0 Z" />
+
+        <!-- Left inner heavy plate -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M37.8,37.8 C39.7,37.8 41.3,39.4 41.3,41.3 L41.3,66.7 C41.3,68.6 39.7,70.2 37.8,70.2 C35.9,70.2 34.3,68.6 34.3,66.7 L34.3,41.3 C34.3,39.4 35.9,37.8 37.8,37.8 Z" />
+
+        <!-- Right inner heavy plate -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M70.2,37.8 C72.1,37.8 73.7,39.4 73.7,41.3 L73.7,66.7 C73.7,68.6 72.1,70.2 70.2,70.2 C68.3,70.2 66.7,68.6 66.7,66.7 L66.7,41.3 C66.7,39.4 68.3,37.8 70.2,37.8 Z" />
+
+        <!-- Left outer plate -->
+        <path
+            android:fillColor="#C9D0DC"
+            android:pathData="M30.2,42.8 C31.7,42.8 33.0,44.1 33.0,45.6 L33.0,62.4 C33.0,63.9 31.7,65.2 30.2,65.2 C28.7,65.2 27.4,63.9 27.4,62.4 L27.4,45.6 C27.4,44.1 28.7,42.8 30.2,42.8 Z" />
+
+        <!-- Right outer plate -->
+        <path
+            android:fillColor="#C9D0DC"
+            android:pathData="M77.8,42.8 C79.3,42.8 80.6,44.1 80.6,45.6 L80.6,62.4 C80.6,63.9 79.3,65.2 77.8,65.2 C76.3,65.2 75.0,63.9 75.0,62.4 L75.0,45.6 C75.0,44.1 76.3,42.8 77.8,42.8 Z" />
+
+        <!-- Outer sleeve endcaps -->
+        <path
+            android:fillColor="#8C95A6"
+            android:pathData="M25.6,51.2 C26.3,51.2 26.9,51.8 26.9,52.5 L26.9,55.5 C26.9,56.2 26.3,56.8 25.6,56.8 C24.9,56.8 24.3,56.2 24.3,55.5 L24.3,52.5 C24.3,51.8 24.9,51.2 25.6,51.2 Z" />
+        <path
+            android:fillColor="#8C95A6"
+            android:pathData="M82.4,51.2 C83.1,51.2 83.7,51.8 83.7,52.5 L83.7,55.5 C83.7,56.2 83.1,56.8 82.4,56.8 C81.7,56.8 81.1,56.2 81.1,55.5 L81.1,52.5 C81.1,51.8 81.7,51.2 82.4,51.2 Z" />
+    </group>
+</vector>
