@@ -4,6 +4,8 @@
 
 A native Android workout tracker built with Kotlin, Jetpack Compose, Material 3, and Room. Kova is designed to log gym sessions quickly and show clear strength progress over time.
 
+<img src="assets/demo.gif" width="820" alt="Kova walkthrough showing Push, Pull, Legs routines, live set logging with floating rest timer, bench press progress from 60 kg to 75 kg, and weekly consistency calendar">
+
 ## What it does
 
 - **Custom routines:** Organize training days (such as Push, Pull, Legs, or your own split) with required and optional exercises and a daily exercise target.
