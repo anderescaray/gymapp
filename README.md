@@ -1,21 +1,14 @@
 <img src="assets/icon.svg" width="64" height="64" alt="Kova">
 
-# Kova — Entreno y Progreso para Android
+# Kova
 
-Aplicación nativa de Android (**Kotlin + Jetpack Compose + Material 3 + Room SQLite**) diseñada para registrar tus entrenamientos de gimnasio con precisión, claridad y velocidad.
+A native Android workout tracker built with Kotlin, Jetpack Compose, Material 3, and Room. Kova is designed to log gym sessions quickly and show clear strength progress over time.
 
-## Funcionalidades principales
-- **Rutinas personalizadas por días** (Push, Pull, Leg o tu propia división) con objetivo diario de ejercicios.
-- **Ejercicios obligatorios y opcionales**: completa todos los obligatorios y rellena el objetivo diario con tus opcionales favoritos.
-- **Sesión activa guiada**: registra series, repeticiones y kilos (o peso corporal / lastre) con referencia de tu última sesión y ajuste rápido (`±2.5 kg` / `±1 rep`).
-- **Temporizador de descanso tipo Dynamic Island**: píldora flotante automática tras completar cada serie con `+15s / -15s`, preajustes y aviso háptico/sonoro.
-- **Gráficas interactivas de progreso**: alterna entre **1RM estimado**, **Peso máximo**, **Volumen total** y **Repeticiones**, con detección automática de **PR (récord)** y **estancamiento**.
-- **Calendario semanal inteligente**: semanas de lunes a domingo en verde al cumplir el objetivo semanal y en rojo si se cierra una semana por debajo del mínimo, con rachas y detalle de cada entreno.
-- **Base de datos local SQLite (Room)** + copia de seguridad completa en JSON y arquitectura lista para sincronización con **Google Drive (`appDataFolder`)**.
+## What it does
 
-## Compilar el APK
-```powershell
-$env:JAVA_HOME = "C:\Program Files\Android\Android Studio\jbr"
-.\gradlew.bat :app:assembleRelease
-```
-El APK compilado se genera en `app/build/outputs/apk/release/app-release.apk` (y la versión debug en `app/build/outputs/apk/debug/app-debug.apk`).
+- **Custom routines:** Organize training days (such as Push, Pull, Legs, or your own split) with required and optional exercises and a daily exercise target.
+- **Guided workout logging:** Track sets, reps, and weight (or bodyweight/added load) with your last session shown as reference and quick-adjust controls.
+- **Floating rest timer:** Automatically starts a compact rest timer pill after each set, with quick time adjustments and sound/haptic alerts.
+- **Progress charts:** View trends for estimated 1RM, max weight, total volume, and reps, with automatic personal record (PR) and plateau detection.
+- **Weekly calendar:** See workout streaks and weekly consistency at a glance based on your weekly training goal.
+- **Local-first data:** Stores everything offline in SQLite (Room) with full JSON backup and export support.
